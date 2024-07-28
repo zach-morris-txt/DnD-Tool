@@ -1,0 +1,9 @@
+* {
+    background: rgb(243, 153, 120)
+}
+
+.characterForm {
+    min-height: 100px;
+    min-width: 95%;
+    border: 2px solid black;
+}
