@@ -1,0 +1,134 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>D&D Tool</title>
+    </head>
+
+    <body>
+        <form class="characterForm" id="characterFormPrimary">
+            <label for="characterName">Character Name:</label>
+            <input type="text" id="characterName" name="characterName">
+            <label for="characterClass">Character Class:</label>
+            <select name="characterClass" id="characterClass">
+                <option value="Artificer">Artificer</option>
+                <option value="Barbarian">Barbarian</option>
+                <option value="Bard">Bard</option>
+                <option value="Cleric">Cleric</option>
+                <option value="Druid">Druid</option>
+                <option value="Fighter">Fighter</option>
+                <option value="Monk">Monk</option>
+                <option value="Paladin">Paladin</option>
+                <option value="Ranger">Ranger</option>
+                <option value="Rogue">Rogue</option>
+                <option value="Sorcerer">Sorcerer</option>
+                <option value="Warlock">Warlock</option>
+                <option value="Wizard">Wizard</option>
+            </select>
+            <label for="characterBackground">Character Background:</label>
+            <select name="characterBackground" id="characterBackground">
+                <option value="Acolyte">Acolyte</option>
+                <option value="Chalatan">Charlatan</option>
+                <option value="Criminal">Criminal</option>
+                <option value="Entertainer">Entertainer</option>
+                <option value="Folk Hero">Folk Hero</option>
+                <option value="Guild Artisan">Guild Artisan</option>
+                <option value="Hermit">Hermit</option>
+                <option value="Noble">Noble</option>
+                <option value="Outlander">Outlander</option>
+                <option value="Sage">Sage</option>
+                <option value="Sailor">Sailor</option>
+                <option value="Soldier">Soldier</option>
+                <option value="Urchin">Urchin</option>
+            </select>
+            <label for="playerName">Player Name:</label>
+            <input type="text" id="playerName" name="playerName">
+            <label for="characterRace">Character Race:</label>
+            <select name="characterRace" id="characterRace">
+                <option value="Dragonborn">Dragonborn</option>
+                <option value="Dwarves">Dwarves</option>
+                <option value="Elves">Elves</option>
+                <option value="Neutral Good">Gnomes</option>
+                <option value="Half-elves">Half-elves</option>
+                <option value="Half-orcs">Half-orcs</option>
+                <option value="Halflings">Halflings</option>
+                <option value="Humans">Humans</option>
+                <option value="Tieflings">Tieflings</option>
+            </select>
+            <label for="characterAlignment">Alignment:</label>
+            <!-- Consider making this a radio input if the dots can be styled into a 3x3 grid -->
+            <select name="characterAlignment" id="characterAlignment">
+                <option value="Lawful Good">Lawful Good</option>
+                <option value="Lawful Neutral">Lawful Neutral</option>
+                <option value="Lawful Evil">Lawful Evil</option>
+                <option value="Neutral Good">Neutral Good</option>
+                <option value="True Neutral">True Neutral</option>
+                <option value="Neutral Evil">Neutral Evil</option>
+                <option value="Chaotic Good">Chaotic Good</option>
+                <option value="Chaotic Neutral">Chaotic Neutral</option>
+                <option value="Chaotic Evil">Chaotic Evil</option>
+            </select>
+            <label for="characterExperience">Character Experience:</label>
+            <input type="number" id="characterExperience" name="characterExperience">
+        </form>
+        <form class="characterForm" id="characterFormProficiencies">
+            <label for="characterProfStr">Character Strength:</label>
+            <input type="number" id="characterProfStr" name="characterProfStr">
+            <label for="characterProfDex">Character Dexterity:</label>
+            <input type="number" id="characterProfDex" name="characterProfDex">
+            <label for="characterProfCon">Character Constitution:</label>
+            <input type="number" id="characterProfCon" name="characterProfCon">
+            <label for="characterProfInt">Character Intelligence:</label>
+            <input type="number" id="characterProfInt" name="characterProfInt">
+            <label for="characterProfWis">Character Wisdom:</label>
+            <input type="number" id="characterProfWis" name="characterProfWis">
+            <label for="characterProfCha">Character Charisma:</label>
+            <input type="number" id="characterProfCha" name="characterProfCha">
+        </form>
+        <form class="characterForm" id="characterFormInitiative">
+            <label for="characterInitiative">Character Initiative:</label>
+            <input type="number" id="characterInitiative" name="characterInitiative">
+        </form>
+        <form class="characterForm" id="characterFormHealth">
+            <label for="characterCurrentHP">Current HP:</label>
+            <input type="number" id="characterCurrentHP" name="characterCurrentHP">
+            <label for="characterTemporaryHP">Temporary HP:</label>
+            <input type="number" id="characterTemporaryHP" name="characterTemporaryHP">
+            <label for="characterSaveLife">Death Save Successes:</label>
+            <input type="radio" id="characterSaveLife1" name="characterSaveLife" value="1">
+            <label for="characterSaveLife">1</label>
+            <input type="radio" id="characterSaveLife2" name="characterSaveLife" value="2">
+            <label for="characterSaveLife">2</label>
+            <input type="radio" id="characterSaveLife3" name="characterSaveLife" value="3">
+            <label for="characterSaveLife">3</label>
+            <label for="characterSaveDeath">Death Save Failures:</label>
+            <input type="radio" id="characterSaveDeath1" name="characterSaveDeath" value="1">
+            <label for="characterSaveDeath">1</label>
+            <input type="radio" id="characterSaveDeath2" name="characterSaveDeath" value="2">
+            <label for="characterSaveDeath">2</label>
+            <input type="radio" id="characterSaveDeath3" name="characterSaveDeath" value="3">
+            <label for="characterSaveDeath">3</label>
+        </form>
+        <form class="characterForm" id="characterFormTraits">
+            <label for="characterPersonality">Character Personality:</label>
+            <input type="text" id="characterPersonality" name="characterPersonality">
+            <label for="characterIdeals">Character Ideals:</label>
+            <input type="text" id="characterIdeals" name="characterIdeals">
+            <label for="characterBonds">Character Bonds:</label>
+            <input type="text" id="characterBonds" name="characterBonds">
+            <label for="characterFlaws">Character Flaws:</label>
+            <input type="text" id="characterFlaws" name="characterFlaws">
+        </form>
+        <form class="characterForm" id="characterFormProfLang">
+            <label for="characterProficiencies">Other Proficiencies:</label>
+            <input type="text" id="characterProficiencies" name="characterProficiencies">
+            <label for="characterLanguages">Character Languages:</label>
+            <input type="text" id="characterLanguages" name="characterLanguages">
+            <label for="characterEquipment">Character Equipment:</label>
+            <input type="text" id="characterEquipment" name="characterEquipment">
+            <label for="characterFeatures">Character Features:</label>
+            <input type="text" id="characterFeatures" name="characterFeatures">
+        </form>
+
+    </body>
+</html>
