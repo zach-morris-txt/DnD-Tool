@@ -1,4 +1,8 @@
+Plan to use MERN stack
+
+
 Data Visualization
+
   [ITEMS]
 Can be owned by characters
 Have cost, effect, description, rarity, attunement, type, tag, name, img
