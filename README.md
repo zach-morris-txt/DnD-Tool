@@ -1,5 +1,5 @@
-![alt text](<DnD Proj.png>)
+![Alt text](https://github.com/zach-morris-txt/Project-DnD-Tool/blob/main/dnd-tools/images/DnD-Proj.png?raw=true)
 
 
 
-![alt text](Character-Sheet.png)
+![Alt text](https://github.com/zach-morris-txt/Project-DnD-Tool/blob/main/dnd-tools/images/Character-Sheet.png?raw=true)
