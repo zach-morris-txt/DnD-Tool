@@ -9,6 +9,59 @@
 .leftCOl {
   width: 50vw;
 }
+
 .rightCol {
   width: 50vw;
+}
+.charShtTop {
+  display: flex;
+  margin: 10px;
+  border: 2px red dashed;
+}
+.shtInput {
+  margin: 2px;
+  background: lightblue;
+}
+.shtInputName {
+  width: 20vw;
+}
+
+.charShtBody {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 2px blue dashed;
+}
+.charShtCols {
+  height: 85vh;
+  width: 15vw;
+  border: 2px black solid;
+}
+
+.charShtColLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.charShtLeftTop {
+  display: flex;
+  justify-content: space-between;
+  height: 63vh;
+  width: 15vw;
+}
+.colLeftCol1 {
+  height: 62vh;
+  width: 5vw;
+  border: 1px black solid;
+}
+.colLeftCol2 {
+  height: 62vh;
+  width: 9vw;
+  border: 1px black solid;
+}
+.colLeftBottom {
+  height: 20vh;
+  width: 14vw;
+  border: 1px black solid;
 }
