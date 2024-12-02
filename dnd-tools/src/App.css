@@ -11,7 +11,8 @@
 }
 
 .rightCol {
-  width: 50vw;
+  width: 49vw;
+  margin: 10px;
 }
 .charShtTop {
   display: flex;
@@ -51,17 +52,110 @@
   width: 15vw;
 }
 .colLeftCol1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 62vh;
   width: 5vw;
   border: 1px black solid;
+}
+.shtInputAbility {
+  height: 8vh;
+  width: 4vw;
 }
 .colLeftCol2 {
   height: 62vh;
   width: 9vw;
   border: 1px black solid;
 }
+.leftCol2Box {
+  border: 2px black solid;
+}
+.shtInputCol2 {
+  height: 1vh;
+  width: 9vw;
+  background: salmon; 
+}
 .colLeftBottom {
   height: 20vh;
   width: 14vw;
   border: 1px black solid;
+}
+.colLeftBot1 {
+  height: 3vh;
+  width: 14vw;
+  border: 1px black solid;
+}
+.inputLeftBot1 {
+  width: 13vw;
+}
+.colLeftBot2 {
+  height: 15vh;
+  width: 14vw;
+  margin-top: 8px;
+  border: 1px black solid;
+}
+.inputLeftBot2 {
+  height: 14vh;
+  width: 13vw;
+}
+
+
+/* Middle Column */
+.charShtColMid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.colMidTop {
+  display: flex;
+  flex-flow: column; 
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  border: 2px black solid;
+}
+.midTopBoxType1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 13vw;
+}
+.midTopBoxType2 {
+  width: 13vw;
+}
+.midTopBox3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.midTopBoxType3 {
+  width: 6vw;
+}
+.shtInputMid {
+  height: 28vh;
+  width: 14vw;
+}
+
+
+/* Right Column */
+.charShtColRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.colRightTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+.shtInputRight {
+  width: 13vw;
+}
+.inputRightTopBox {
+  height: 7vh;
+}
+.colRightBottom {
+  height: 48vh;
 }
