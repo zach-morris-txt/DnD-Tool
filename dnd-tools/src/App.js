@@ -1,10 +1,11 @@
 import CharacterSheet from './components/character-sheet-form';
 import './App.css';
+import Navigation from './components/navigation';
 
 function App() {
   return (
     <div className="App">
-      <header>D&D Tools</header>
+      <Navigation />
       <div className="homeCol">
         <div className="leftCol"></div>
         <CharacterSheet />
