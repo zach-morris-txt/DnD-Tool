@@ -7,6 +7,12 @@
 
 
 Needs navigation
+Needs library catalogue layout
+Needs card components (spells, equipment, magic items, monsters etc) for array looping
+Plan with all json files how best to use data
+
+
+
 
 Specific inputs have predetermined values (dropdown) and should list ??from array data??
 

@@ -6,12 +6,12 @@ export default function CharShtLeft() {
         <div className="charShtCols charShtColLeft">
             <div className="charShtLeftTop">
                 <div className="colLeftCol1">
-                    <input type="text" placeholder="STR" className="shtInput shtInputAbility" />
-                    <input type="text" placeholder="DEX" className="shtInput shtInputAbility" />
-                    <input type="text" placeholder="CON" className="shtInput shtInputAbility" />
-                    <input type="text" placeholder="INT" className="shtInput shtInputAbility" />
-                    <input type="text" placeholder="WIS" className="shtInput shtInputAbility" />
-                    <input type="text" placeholder="CHA" className="shtInput shtInputAbility" />
+                    <input type="text" placeholder="STR" className="shtInputMath shtInput shtInputAbility" />
+                    <input type="text" placeholder="DEX" className="shtInputMath shtInput shtInputAbility" />
+                    <input type="text" placeholder="CON" className="shtInputMath shtInput shtInputAbility" />
+                    <input type="text" placeholder="INT" className="shtInputMath htInput shtInputAbility" />
+                    <input type="text" placeholder="WIS" className="shtInputMath shtInput shtInputAbility" />
+                    <input type="text" placeholder="CHA" className="shtInputMath shtInput shtInputAbility" />
                 </div>
                 <div className="colLeftCol2">
                     <div className="leftCol2Box">

@@ -10,11 +10,11 @@ export default function CharShtMid() {
                     <input type="text" placeholder="Initiative" className="shtInput midTopBoxType1" />
                     <input type="text" placeholder="Speed" className="shtInput midTopBoxType1" />
                 </div>
-                <input type="text" placeholder="Current Hit Points" className="shtInput midTopBoxType2" />
-                <input type="text" placeholder="Temporary Hit Points" className="shtInput midTopBoxType2" />
+                <input type="text" placeholder="Current Hit Points" className="shtInputFill shtInput midTopBoxType2" />
+                <input type="text" placeholder="Temporary Hit Points" className="shtInputFill shtInput midTopBoxType2" />
                 <div className="midTopBox3">
                     <input type="text" placeholder="Hit Dice" className="shtInput midTopBoxType3" />
-                    <input type="text" placeholder="Death Saves" className="shtInput midTopBoxType3" />
+                    <input type="text" placeholder="Death Saves" className="shtInputFill shtInput midTopBoxType3" />
                 </div>
             </div>
             <div className="colMidMiddle">

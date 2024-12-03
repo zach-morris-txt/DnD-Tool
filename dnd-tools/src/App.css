@@ -33,6 +33,21 @@
   width: 50vw;
 }
 
+
+
+/* Input Types */
+.shtInputMath {
+  background-color: rgb(236, 107, 133);
+}
+.shtInputFill {
+  background-color: rgb(193, 135, 248);
+}
+.shtInputDropDown {
+  background-color: rgb(100, 100, 240);
+}
+
+
+
 .rightCol {
   width: 49vw;
   margin: 0px 10px 0px 10px;
@@ -44,7 +59,6 @@
 }
 .shtInput {
   margin: 2px;
-  background: lightblue;
 }
 .shtInputName {
   width: 20vw;
