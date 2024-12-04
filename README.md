@@ -7,9 +7,14 @@
 
 
 Needs navigation
+
 Needs library catalogue layout
+
 Needs card components (spells, equipment, magic items, monsters etc) for array looping
+
 Plan with all json files how best to use data
+
+Refactor character sheet layout for functional form (split from blank form)
 
 
 
@@ -40,11 +45,10 @@ Character leveling functionality should probably only be made available after an
 
 Several later features will benefit and/or rely upon user account creation. However, character sheet completion and 
     character leveling should be manageable without heavy user backend work.
+    ***User characters should have 'ownership' all selected data. This might be the best way of managing character state.
+
+
 
 POSS user campaign publishing
 
-
-LIBRARY
--Spells
--Weapons
--Items/Equipment
+POSS spell filtering-search, favorites, ?pending list? 

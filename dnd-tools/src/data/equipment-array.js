@@ -1,4 +1,4 @@
-const equipmentArray = [
+export const equipmentArray = [
     {
       "index": "club",
       "name": "Club",

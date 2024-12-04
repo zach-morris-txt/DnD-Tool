@@ -1,5 +1,5 @@
-import CharacterSheet from './components/character-sheet-form';
 import './App.css';
+import CharacterSheet from './components/character-sheet-form';
 import Navigation from './components/navigation';
 
 function App() {
