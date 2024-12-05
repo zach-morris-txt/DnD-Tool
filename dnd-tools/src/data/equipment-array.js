@@ -3,7 +3,7 @@ export const equipmentArray = [
       "index": "club",
       "name": "Club",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -44,7 +44,7 @@ export const equipmentArray = [
       "index": "dagger",
       "name": "Dagger",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -99,7 +99,7 @@ export const equipmentArray = [
       "index": "greatclub",
       "name": "Greatclub",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -135,7 +135,7 @@ export const equipmentArray = [
       "index": "handaxe",
       "name": "Handaxe",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -185,7 +185,7 @@ export const equipmentArray = [
       "index": "javelin",
       "name": "Javelin",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -230,7 +230,7 @@ export const equipmentArray = [
       "index": "light-hammer",
       "name": "Light hammer",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -280,7 +280,7 @@ export const equipmentArray = [
       "index": "mace",
       "name": "Mace",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -316,7 +316,7 @@ export const equipmentArray = [
       "index": "quarterstaff",
       "name": "Quarterstaff",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -365,7 +365,7 @@ export const equipmentArray = [
       "index": "sickle",
       "name": "Sickle",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -406,7 +406,7 @@ export const equipmentArray = [
       "index": "spear",
       "name": "Spear",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -464,7 +464,7 @@ export const equipmentArray = [
       "index": "crossbow-light",
       "name": "Crossbow, light",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -511,7 +511,7 @@ export const equipmentArray = [
       "index": "dart",
       "name": "Dart",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -557,7 +557,7 @@ export const equipmentArray = [
       "index": "shortbow",
       "name": "Shortbow",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -599,7 +599,7 @@ export const equipmentArray = [
       "index": "sling",
       "name": "Sling",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -636,7 +636,7 @@ export const equipmentArray = [
       "index": "battleaxe",
       "name": "Battleaxe",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -680,7 +680,7 @@ export const equipmentArray = [
       "index": "flail",
       "name": "Flail",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -710,7 +710,7 @@ export const equipmentArray = [
       "index": "glaive",
       "name": "Glaive",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -756,7 +756,7 @@ export const equipmentArray = [
       "index": "greataxe",
       "name": "Greataxe",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -797,7 +797,7 @@ export const equipmentArray = [
       "index": "greatsword",
       "name": "Greatsword",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -838,7 +838,7 @@ export const equipmentArray = [
       "index": "halberd",
       "name": "Halberd",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -884,7 +884,7 @@ export const equipmentArray = [
       "index": "lance",
       "name": "Lance",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -928,7 +928,7 @@ export const equipmentArray = [
       "index": "longsword",
       "name": "Longsword",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -972,7 +972,7 @@ export const equipmentArray = [
       "index": "maul",
       "name": "Maul",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1013,7 +1013,7 @@ export const equipmentArray = [
       "index": "morningstar",
       "name": "Morningstar",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1043,7 +1043,7 @@ export const equipmentArray = [
       "index": "pike",
       "name": "Pike",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1089,7 +1089,7 @@ export const equipmentArray = [
       "index": "rapier",
       "name": "Rapier",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1125,7 +1125,7 @@ export const equipmentArray = [
       "index": "scimitar",
       "name": "Scimitar",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1166,7 +1166,7 @@ export const equipmentArray = [
       "index": "shortsword",
       "name": "Shortsword",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1212,7 +1212,7 @@ export const equipmentArray = [
       "index": "trident",
       "name": "Trident",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1265,7 +1265,7 @@ export const equipmentArray = [
       "index": "war-pick",
       "name": "War pick",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1295,7 +1295,7 @@ export const equipmentArray = [
       "index": "warhammer",
       "name": "Warhammer",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1339,7 +1339,7 @@ export const equipmentArray = [
       "index": "whip",
       "name": "Whip",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1380,7 +1380,7 @@ export const equipmentArray = [
       "index": "blowgun",
       "name": "Blowgun",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1422,7 +1422,7 @@ export const equipmentArray = [
       "index": "crossbow-hand",
       "name": "Crossbow, hand",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1469,7 +1469,7 @@ export const equipmentArray = [
       "index": "crossbow-heavy",
       "name": "Crossbow, heavy",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1521,7 +1521,7 @@ export const equipmentArray = [
       "index": "longbow",
       "name": "Longbow",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },
@@ -1568,7 +1568,7 @@ export const equipmentArray = [
       "index": "net",
       "name": "Net",
       "equipment_category": {
-        "index": "weapon",
+        "index": "Weapon",
         "name": "Weapon",
         "url": "/api/equipment-categories/weapon"
       },

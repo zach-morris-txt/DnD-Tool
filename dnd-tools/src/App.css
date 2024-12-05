@@ -196,3 +196,35 @@
 .colRightBottom {
   height: 48vh;
 }
+
+
+/* Library Equipment */
+.libCols {
+  display: flex;
+  flex-direction: column;
+  padding-right: 7vw;
+}
+.libCards {
+  display: flex;
+}
+.cardInfoXSm {
+  width: 6vw;
+  margin: 22px 40px; 
+}
+.cardInfoSm {
+  width: 12vw;
+  margin: 22px 40px; 
+}
+.cardInfoLg {
+  width: 50vw;
+  margin: 22px 40px; 
+}
+.cardName {
+  margin: 22px 40px 30px 100px;
+  font-weight: 700;
+  font-size: large;
+  text-decoration: underline;
+}
+
+
+/* Library Magic Items */
