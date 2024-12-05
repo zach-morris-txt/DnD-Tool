@@ -1,4 +1,4 @@
-const magicItemsArray = [
+export const magicItemsArray = [
     {
       "index": "adamantine-armor",
       "name": "Adamantine Armor",

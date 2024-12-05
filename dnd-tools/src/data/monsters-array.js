@@ -1,4 +1,4 @@
-const monstersArray = [
+export const monstersArray = [
     {
       "index": "aboleth",
       "name": "Aboleth",

@@ -1,4 +1,4 @@
-const spellsArray = [
+export const spellsArray = [
     {
       "index": "acid-arrow",
       "name": "Acid Arrow",
