@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 
-class Database {
+export class Database {
     constructor() {
       this.pool = new Pool({
         host: process.env.DB_HOST,
@@ -38,6 +38,3 @@ class Database {
       console.log('Closed database connection');
     }
   }
-
-
-export {Database};

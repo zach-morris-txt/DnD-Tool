@@ -1,7 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import {apiRoute} from './src/routes/api.js';
 import {authRoute} from './src/routes/auth.js';
 import {migrateRoute} from './src/routes/migrate.js';
+import {loggedIn} from './src/middleware/auth-middleware.js';
 
 const app = express();
 dotenv.config();
@@ -12,6 +14,7 @@ const port = process.env.PORT;
 app.use(express.json());
 
 // Use routes
+app.use('/api', loggedIn, apiRoute);
 app.use('/auth', authRoute);
 app.use('/migrate', migrateRoute);
 

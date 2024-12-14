@@ -1,13 +1,17 @@
-require('dotenv').config();
-const jwt = require('../Libraries/Jwt')
-const db = require('../Libraries/Database')
+import dotenv from 'dotenv';
+dotenv.config();
+
+import {jwtService} from '../libraries/jwt.js';
+import {Database} from '../libraries/database.js';
+const db = new Database();
 
 
-module.exports = async (req, res, next) => {
+
+async function loggedIn(req, res, next) {
     let token = req.headers.authorization || req.headers.Authorization;
     token = token.split(" ")[1]
     try {
-        let { userId } = await jwt.verifyToken(token)
+        let { userId } = await jwtService.verifyToken(token)
         const user = await db.query(`SELECT email from users where userid =$1`, [userId])
         if (user.rowCount > 0) {
             req.userId = userId
@@ -27,3 +31,6 @@ module.exports = async (req, res, next) => {
         })
     }
 }
+
+
+export {loggedIn};

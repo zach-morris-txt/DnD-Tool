@@ -1,6 +1,7 @@
 import express from 'express';
 import Router from 'express';
 import {Database} from '../libraries/database.js';
+const db = new Database();
 const migrateRoute = Router();
 
 

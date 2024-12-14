@@ -2,6 +2,7 @@ import express from 'express';
 import Router from 'express';
 import crypto from 'crypto';
 import {Database} from '../libraries/database.js';
+const db = new Database();
 import {jwtService} from '../libraries/jwt.js';
 const authRoute = Router();
 
