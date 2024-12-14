@@ -1,13 +1,14 @@
 import express from 'express';
 import Router from 'express';
+import crypto from 'crypto';
+import db from '../Libraries/Database';
+import jwt from '../Libraries/Jwt';
 
-const db = require('../Libraries/Database')
-const jwt = require('../Libraries/Jwt')
-const crypto = require('crypto');
 
 const router = Router();
 
 
+//Auth Endpoints
 router.post("/register", async (req, res) => {
     const { firstName, lastName, email, phone, password } = req.body
     let errors = [];

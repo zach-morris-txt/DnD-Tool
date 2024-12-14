@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import {migrateRoute} from './src/routes/migrate.js'
+
 
 const app = express();
 dotenv.config();
@@ -9,6 +11,8 @@ const port = process.env.PORT;
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+// Use routes
+app.use('/migrate', migrateRoute);
 
 //App Endpoint Handling
 app.get("/", (req, res) => {
