@@ -1,8 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import {authRoute} from './src/routes/auth.js';
-import {migrateRoute} from './src/routes/migrate.js'
-
+import {migrateRoute} from './src/routes/migrate.js';
 
 const app = express();
 dotenv.config();

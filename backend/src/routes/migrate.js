@@ -1,10 +1,10 @@
 import express from 'express';
 import Router from 'express';
-
 import {Database} from '../libraries/database.js';
 const migrateRoute = Router();
 
 
+//Migrations
 migrateRoute.all("/", async (req, res) => {
     await db.query(`
         DROP TABLE IF EXISTS users;

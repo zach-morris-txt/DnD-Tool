@@ -3,8 +3,6 @@ import Router from 'express';
 import crypto from 'crypto';
 import {Database} from '../libraries/database.js';
 import {jwtService} from '../libraries/jwt.js';
-
-
 const authRoute = Router();
 
 
