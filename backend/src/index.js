@@ -1,5 +1,5 @@
 import express from 'express';
-import {PORT} from './constants/index.js';
+import {PORT} from './libraries/index.js';
 import {router} from './routes/auth.js'
 
 const app = express();
