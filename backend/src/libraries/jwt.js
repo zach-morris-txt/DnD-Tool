@@ -1,7 +1,10 @@
-const jwt = require('jsonwebtoken');
-require('dotenv').config();
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+dotenv.config();
 
-class JwtService {
+
+//Serve JWT
+class jwtService {
   constructor() {
     this.secret = process.env.JWT_SECRET;
     this.expiresIn = process.env.JWT_EXPIRES_IN; // default to 1 hour
@@ -32,4 +35,4 @@ class JwtService {
   }
 }
 
-module.exports = new JwtService;
+export {jwtService}

@@ -1,5 +1,7 @@
-const { Pool } = require('pg');
-require('dotenv').config();
+import pg from 'pg';
+const {Pool} = pg;
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 class Database {
@@ -36,5 +38,6 @@ class Database {
       console.log('Closed database connection');
     }
   }
-  
-  module.exports = new Database();
+
+
+export {Database};

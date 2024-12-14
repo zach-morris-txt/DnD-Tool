@@ -1,7 +1,7 @@
 import express from 'express';
 import Router from 'express';
 
-//const db = require('../Libraries/Database');
+import {Database} from '../libraries/database.js';
 const migrateRoute = Router();
 
 

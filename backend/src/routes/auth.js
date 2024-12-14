@@ -1,15 +1,15 @@
 import express from 'express';
 import Router from 'express';
 import crypto from 'crypto';
-import db from '../Libraries/Database';
-import jwt from '../Libraries/Jwt';
+import {Database} from '../libraries/database.js';
+import {jwtService} from '../libraries/jwt.js';
 
 
-const router = Router();
+const authRoute = Router();
 
 
 //Auth Endpoints
-router.post("/register", async (req, res) => {
+authRoute.post("/register", async (req, res) => {
     const { firstName, lastName, email, phone, password } = req.body
     let errors = [];
 
@@ -103,7 +103,7 @@ router.post("/register", async (req, res) => {
 })
 
 
-router.post("/login", async (req, res) => {
+authRoute.post("/login", async (req, res) => {
     const { email, password } = req.body
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !password || password.length == 0) {
         return res.status(401).json({
@@ -149,4 +149,4 @@ router.post("/login", async (req, res) => {
 })
 
 
-export {router};
+export {authRoute};

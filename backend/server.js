@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import {authRoute} from './src/routes/auth.js';
 import {migrateRoute} from './src/routes/migrate.js'
 
 
@@ -12,6 +13,7 @@ const port = process.env.PORT;
 app.use(express.json());
 
 // Use routes
+app.use('/auth', authRoute);
 app.use('/migrate', migrateRoute);
 
 //App Endpoint Handling
