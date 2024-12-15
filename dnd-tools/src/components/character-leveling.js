@@ -1,7 +1,6 @@
 import '../App.css';
 import CharShtLeft from './charsht-left';
 import CharShtMid from './charsht-mid';
-import CharShtRight from './charsht-right';
 
 
 export default function Character() {

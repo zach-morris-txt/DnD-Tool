@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import './index.css';
 import App from './App';
-import Library from './components/library';
+import Library from './pages/library';
 import LibEquipment from './components/libEquipment';
 import LibMagicItems from './components/libMagicItems';
 import LibMonsters from './components/libMonsters';

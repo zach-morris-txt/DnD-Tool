@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router";
-import Navigation from "./navigation";
+import Navigation from "../components/navigation";
 
 
 export default function Library() {
