@@ -1,0 +1,4 @@
+1.  Assure correct .env values
+2.  Run server
+3.  Run Postman
+4.  hit the migrations endpoint in order to migrate data

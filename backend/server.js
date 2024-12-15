@@ -14,7 +14,7 @@ const port = process.env.PORT;
 app.use(express.json());
 
 // Use routes
-app.use('/api', loggedIn, apiRoute);
+app.use('/api', apiRoute);
 app.use('/auth', authRoute);
 app.use('/migrate', migrateRoute);
 
